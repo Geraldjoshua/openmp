@@ -6,5 +6,5 @@ OMPFLAG = -DOMPVER2 -DOMPVER3
 CC=cc 
 CFLAGS =  -O1 -lm -fopenmp
 LDFLAGS = -O0 -lm -fopenmp
-CPP = "/mnt/c/Program Files/Haskell Platform/8.6.5/mingw/bin/cpp.exe"
+CPP = "/usr/bin/cpp"
 LIBS = 

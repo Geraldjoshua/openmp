@@ -1,0 +1,112 @@
+Running OpenMP benchmark version 3.0
+	32 thread(s)
+	20 outer repetitions
+	1000.00 test time (microseconds)
+	32 delay length (iterations) 
+	0.100000 delay time (microseconds)
+
+--------------------------------------------------------
+Computing reference time 1 time using 40960 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.089946   0.089772   0.090638    0.000251      0
+
+reference time 1 time     = 0.089946 microseconds +/- 0.000492
+
+--------------------------------------------------------
+Computing PARALLEL TASK time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                749.895517   660.577789   886.406004    78.460832      0
+
+PARALLEL TASK time     = 749.895517 microseconds +/- 153.783232
+PARALLEL TASK overhead = 749.805571 microseconds +/- 153.783723
+
+--------------------------------------------------------
+Computing MASTER TASK time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                2366.459109   2104.321122   2915.910259    226.823869      0
+
+MASTER TASK time     = 2366.459109 microseconds +/- 444.574784
+MASTER TASK overhead = 2366.369163 microseconds +/- 444.575275
+
+--------------------------------------------------------
+Computing MASTER TASK BUSY SLAVES time using 40 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                75.493436   67.563355   84.366277    4.996028      0
+
+MASTER TASK BUSY SLAVES time     = 75.493436 microseconds +/- 9.792215
+MASTER TASK BUSY SLAVES overhead = 75.403490 microseconds +/- 9.792706
+
+--------------------------------------------------------
+Computing CONDITIONAL TASK time using 20480 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.147864   0.144270   0.151525    0.001694      0
+
+CONDITIONAL TASK time     = 0.147864 microseconds +/- 0.003320
+CONDITIONAL TASK overhead = 0.057918 microseconds +/- 0.003812
+
+--------------------------------------------------------
+Computing TASK WAIT time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                1694.063805   1661.102101   1730.778813    20.281778      0
+
+TASK WAIT time     = 1694.063805 microseconds +/- 39.752284
+TASK WAIT overhead = 1693.973859 microseconds +/- 39.752776
+
+--------------------------------------------------------
+Computing TASK BARRIER time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                1925.542653   1882.499456   1987.399533    27.395418      0
+
+TASK BARRIER time     = 1925.542653 microseconds +/- 53.695018
+TASK BARRIER overhead = 1925.452706 microseconds +/- 53.695510
+
+--------------------------------------------------------
+Computing NESTED TASK time using 80 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                675.010211   632.405374   759.014301    31.384958      0
+
+NESTED TASK time     = 675.010211 microseconds +/- 61.514517
+NESTED TASK overhead = 674.920265 microseconds +/- 61.515009
+
+--------------------------------------------------------
+Computing NESTED MASTER TASK time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                997.600369   851.368159   1111.898199    87.029306      0
+
+NESTED MASTER TASK time     = 997.600369 microseconds +/- 170.577439
+NESTED MASTER TASK overhead = 997.510423 microseconds +/- 170.577931
+
+--------------------------------------------------------
+Computing reference time 2 time using 40960 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.089830   0.089770   0.089870    0.000037      0
+
+reference time 2 time     = 0.089830 microseconds +/- 0.000072
+
+--------------------------------------------------------
+Computing BRANCH TASK TREE time using 160 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                584.291748   567.989051   609.355979    11.590282      0
+
+BRANCH TASK TREE time     = 584.291748 microseconds +/- 22.716952
+BRANCH TASK TREE overhead = 584.201918 microseconds +/- 22.717024
+
+--------------------------------------------------------
+Computing LEAF TASK TREE time using 160 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                575.929773   554.179167   603.228202    14.276364      0
+
+LEAF TASK TREE time     = 575.929773 microseconds +/- 27.981673
+LEAF TASK TREE overhead = 575.839943 microseconds +/- 27.981746
